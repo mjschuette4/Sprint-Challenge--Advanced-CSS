@@ -94,6 +94,9 @@ nav{
     }
     .walk-text {
       width: 50%;
+      &:hover{
+        animation: DD 5s 10;
+      }
       @media @phone {
         width: 100%;
       }
@@ -120,6 +123,7 @@ nav{
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      
       @media @phone {
         width: 100%;
         margin: 0;
@@ -132,3 +136,6 @@ nav{
     }
   }
 }// home
+@keyframes DD{
+  0%      {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQ6cwsszn5fRJe1rY4RzbQyXLgQPglC97OKiqCp_SEwBZasfMg") ;}
+}

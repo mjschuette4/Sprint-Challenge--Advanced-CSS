@@ -267,6 +267,9 @@ nav a {
 .home .walk .walk-text {
   width: 50%;
 }
+.home .walk .walk-text:hover {
+  animation: DD 5s 10;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
@@ -313,4 +316,9 @@ nav a {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@keyframes DD {
+  0% {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQ6cwsszn5fRJe1rY4RzbQyXLgQPglC97OKiqCp_SEwBZasfMg");
+  }
 }
